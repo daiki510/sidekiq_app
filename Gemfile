@@ -15,6 +15,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 
 gem 'sidekiq'
 gem 'redis-namespace'
+gem 'redis-rails'
 
 group :development, :test do
   # debug
