@@ -5,3 +5,8 @@
 :queues:
   - default
   - test
+
+:schedule:
+  HelloSidekiqJob:
+    every: 5s
+    args: "Hello sidekiq-scheduler!!"

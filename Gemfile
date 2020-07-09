@@ -13,7 +13,9 @@ gem "jbuilder", "~> 2.7"
 
 gem "bootsnap", ">= 1.4.2", require: false
 
+#非同期処理
 gem 'sidekiq'
+gem 'sidekiq-scheduler'
 gem 'redis-namespace'
 gem 'redis-rails'
 
